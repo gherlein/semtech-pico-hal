@@ -21,13 +21,15 @@ target_link_libraries(semtech-pico-hal
     pico_stdlib
     pico_multicore
     hardware_irq
+    pico_unique_id
+    hardware_flash
     hardware_spi
 )
 
 target_include_directories(semtech-pico-hal
     PUBLIC
-    includes
-    semtech-pico-hal/includes
+    include
+    semtech-pico-hal/include
     "${CMAKE_CURRENT_SOURCE_DIR}"
 )
 
