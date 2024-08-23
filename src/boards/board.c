@@ -24,7 +24,7 @@ void BoardInitPeriph( void )
 
 void BoardLowPowerHandler( void )
 {
-    __wfi();
+//    __wfi();
 }
 
 uint8_t BoardGetBatteryLevel( void )
